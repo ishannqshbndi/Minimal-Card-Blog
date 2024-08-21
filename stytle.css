@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    font-family: 'Sora';
+}
+
+.cards-container{
+    margin: 30px;
+    height: 65vh;
+    width: 60vh;
+    background-color: white;
+    border-radius: 6%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+    /* align-items: center; */
+}
+
+.cards , img{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 95%;
+    border-radius: 10px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+  margin-left: 5px;
+  gap: 10px;
+}
+
+.details .btn{
+    background-color: #E6D6FC ;
+    color: #883AE1;
+    border: none;
+    padding: 6px;
+    width: 65px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.details >h1{
+    margin-top: 5px;
+    color: #20293A;
+}
+
+.details > P{
+    font-size: 12px;
+    letter-spacing: 1px;
+   line-height: 22px;
+   color: #6C727F ;
+}    
+
+.details > hr{
+    margin-top: 8px;
+    /* border: 1px solid; */
+}
